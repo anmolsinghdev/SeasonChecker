@@ -2,7 +2,7 @@ import React from 'react';
 import './errorPage.scss';
 const ErrorPage = (props) => {
   return (
-    <div>
+    <div className="error-page">
       <h1>
         <i class="exclamation big circle icon"></i>
         {props.errorMessage}
